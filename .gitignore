@@ -1,0 +1,50 @@
+# -------------------------------------
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# -------------------------------------
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -------------------------------------
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# -------------------------------------
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# -------------------------------------
+# Project-specific
+*.log
+logs/
+data/
+memory.json
+*.db
+output/
+
+# -------------------------------------
+# API Keys and Secrets
+credentials.json
+service-account.json
+*.pem
+*.key
+
+# -------------------------------------
+# UV specific
+uv.lock
