@@ -44,7 +44,8 @@ cd fraud-detection-toy-problem
 
 2. Install dependencies:
 ```bash
-pip install -e .
+uv init
+uv sync
 ```
 
 3. Set up environment variables:
@@ -60,7 +61,7 @@ cp .env.example .env
 To run the backend system and evaluate the test dataset:
 
 ```bash
-python main.py
+uv run python main.py
 ```
 
 ### Running the Streamlit Frontend
@@ -69,13 +70,13 @@ To run the Streamlit frontend:
 
 ```bash
 cd frontend_streamlit_app
-python run_app.py
+uv run python run_app.py
 ```
 
 Or directly with Streamlit:
 
 ```bash
-streamlit run frontend_streamlit_app/app.py
+uv run streamlit run frontend_streamlit_app/app.py
 ```
 
 ## Features
